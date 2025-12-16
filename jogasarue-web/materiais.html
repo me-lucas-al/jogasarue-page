@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGASARUÊ</title>
+    <link rel="stylesheet" href="CSS/materiais.css">
+    <link rel="shortcut icon" href="IMG/favicon.png.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="IMG/logo-joga.png" alt="logo jogasarue" width="12%" >
+        <img src="IMG/logo-texto.png" alt="texto-logo-jogasarue" width="15%" >
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="#">Materiais</a>
+            <a href="downloads.html">Downloads</a>
+        </nav>
+    </header>
+
+    <main>   
+        <div class="mapa">
+
+    <h3>Clique em qualquer ítem da imagem para saber mais.</h3>
+
+    <img
+      src="IMG/image-map.png"
+      usemap="#image-map"
+      alt="Materiais recomendados"
+      style="width:auto; height:auto; display:block; margin-left:auto; margin-right:auto;"
+    />
+
+    <map name="image-map">
+      <area target="_self" alt="tabuleiro" title="Tabuleiro" href="MAPA-HTML/tabuleiro.html" coords="95,32,379,318" shape="rect" />
+      <area target="_self" alt="peoes" title="Peões" href="MAPA-HTML/peoes.html" coords="83,191,24,195,29,142,41,93,67,94,77,144" shape="poly" />
+      <area target="_self" alt="dados" title="Dados" href="MAPA-HTML/dados.html" coords="195,328,96,376" shape="rect" />
+      <area target="_self" alt="marcadores" title="Marcadores" href="MAPA-HTML/marcadores.html" coords="277,335,389,387" shape="rect" />
+      <area target="_self" alt="caixa" title="Caixa" href="MAPA-HTML/caixa.html" coords="404,59,574,296" shape="rect" />
+      <area target="_self" alt="cartas" title="Cartas" href="MAPA-HTML/cartas.html" coords="29,287,77,213" shape="rect" />
+      <area target="_self" alt="miniaturas" title="Miniaturas" href="MAPA-HTML/miniaturas.html" coords="408,314,519,378" shape="rect" />
+    </map>
+  </div>    
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Dan Leonardi © 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+    <script>
+    window.onload = function() {
+        imageMapResize();
+    }
+    </script>
+
+</body>
+</html>
